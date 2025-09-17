@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sweet Delight Bakery</title>
+        <link rel="stylesheet" href="home_styles.css">
+        <link rel="stylesheet" href="product_styles.css">
+        <link rel="icon" href="images/birthday-cake.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="home.html" class="logo">
+                <img src="images/birthday-cake.png" alt="Bakery Icon" class="logo-icon">
+                Sweet Delight Bakery
+            </a>
+            <nav class="navbar">
+                <div class="hamburger" id="hamburger">
+                    &#9776; <!-- Hamburger icon -->
+                </div>
+                <ul id="navbar-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cake-category">
+        <h2>Cheese Cakes</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="images/biscoff-cheesecake.jfif" alt="Biscoff Cake">
+                <h4>Biscoff Cheesecake</h4>
+                <p>A creamy cheesecake topped with delicious Biscoff crumbs.</p>
+                <p>Price: Rs 600</p>
+                <p>Size: 9 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Biscoff Cheesecake', 600)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/blackforest-cheesecake.jfif" alt="Black Forest Cake">
+                <h4>Black Forest Cheesecake</h4>
+                <p>Chocolate cheesecake layered with cherries and whipped cream.</p>
+                <p>Price: Rs 650</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Black Forest Cheesecake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/blueberry-cheesecake.jfif" alt="Blueberry Cake">
+                <h4>Blueberry Cheesecake</h4>
+                <p>Rich and creamy cheesecake topped with fresh blueberries.</p>
+                <p>Price: Rs 550</p>
+                <p>Size: 7 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Blueberry Cheesecake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/img11.jpg" alt="Classic Cheesecake">
+                <h4>Classic Cheesecake</h4>
+                <p>Classic New York-style cheesecake, creamy and rich.</p>
+                <p>Price: Rs 500</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Classic Cheesecake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/strawberry-cheesecake.jfif" alt="Strawberry Cheesecake">
+                <h4>Strawberry Cheesecake</h4>
+                <p>Cheesecake topped with fresh strawberries and a strawberry glaze.</p>
+                <p>Price: Rs 600</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Strawberry Cheesecake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/lemon-cheesecake.jfif" alt="Lemon Cheesecake">
+                <h4>Lemon Cheesecake</h4>
+                <p>A refreshing cheesecake with a zesty lemon flavor.</p>
+                <p>Price: Rs 550</p>
+                <p>Size: 7 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Lemon Cheesecake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/whitechoco-cheesecake.jfif" alt="White chocolate Cheesecake">
+                <h4>White chocolate Cheesecake</h4>
+                <p>This baked white chocolate cheesecake is incredibly creamy and rich, with a delicious subtle white chocolate flavour.</p>
+                <p>Price: Rs 750</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Whitechoco Cheesecake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/oreo-cheesecake.jfif" alt="Oreo Cheesecake">
+                <h4>Oreo Cheesecake</h4>
+                <p>A creamy cheesecake topped with delicious Oreo crumbs</p>
+                <p>Price: Rs 550</p>
+                <p>Size: 6 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Oreo Cheesecake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/classic-cheesecake.jpg" alt="Classic Cheesecake">
+                <h4>Classic New York Cheesecake</h4>
+                <p>Classic New York-style cheesecake with a buttery graham cracker crust and rich, dense filling</p>
+                <p>Price: Rs 500</p>
+                <p>Size: 5 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Classic New York Cheesecake')">Add to Cart</button>
+            </div>
+        </div>
+        <a href="product.html" class="back-to-all-btn">Back to All Cakes</a>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2024 Sweet Delight Bakery. All rights reserved.</p>
+        </div>
+    </footer>
+    <a href="#top" class="scroll-to-top" id="scrollToTopBtn">↑</a>
+</body>
+<script src="home_script.js"></script>
+<script>
+    function addToCart(cakeName) {
+        alert(cakeName + " has been added to your cart!");
+    }
+    </script>
+</html>

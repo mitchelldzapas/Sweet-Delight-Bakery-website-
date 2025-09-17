@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delight Bakery</title>
+    <link rel="stylesheet" href="home_styles.css">
+    <link rel="stylesheet" href="product_styles.css">
+    <link rel="icon" href="images/birthday-cake.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <a href="home.html" class="logo">
+            <img src="images/birthday-cake.png" alt="Bakery Icon" class="logo-icon">
+            Sweet Delight Bakery
+        </a>
+        <nav class="navbar">
+            <div class="hamburger" id="hamburger">
+                &#9776; <!-- Hamburger icon -->
+            </div>
+            <ul id="navbar-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="cake-category">
+    <h2>Cupcakes</h2>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="images/cupcake1.jfif" alt="Vanilla Cupcake">
+            <h4>Vanilla Cupcake</h4>
+            <p>A classic vanilla cupcake topped with rich Biscoff buttercream and drizzled with caramel for a delightful finish.</p>
+            <p>Price: Rs 250</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Vanilla Cupcake')">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/cupcake2.jfif" alt="Chocolate Cupcake">
+            <h4>Chocolate Cupcake</h4>
+            <p>A decadent chocolate cupcake adorned with fresh flowers and a light cream cheese frosting for a touch of elegance.</p>
+            <p>Price: Rs 280</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Chocolate Cupcake')">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/cupcake3.jfif" alt="Gluten free vanilla Cupcake">
+            <h4>Gluten free vanilla Cupcake</h4>
+            <p>A gluten-free vanilla cupcake filled with fresh berries and topped with velvety chocolate ganache for indulgence.</p>
+            <p>Price: Rs 260</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Gluten free vanilla Cupcake')">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/cupcake4.jfif" alt="Classic Vanilla cherry Cupcake">
+            <h4>Classic Vanilla cherry Cupcake</h4>
+            <p>A soft and fluffy vanilla cupcake topped with a swirl of cherry-infused buttercream for a burst of flavor.</p>
+            <p>Price: Rs 240</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Classic Vanilla cherry Cupcake')">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/cupcake5.jfif" alt="Cookie and cream Cupcake">
+            <h4>Cookie and cream Cupcake</h4>
+            <p>A vibrant purple velvet cupcake topped with a rich cream cheese frosting and cookie crumbs for added texture.</p>
+            <p>Price: Rs 270</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Cookie and cream Cupcake')">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/cupcake6.jpg" alt="Strawberry Cupcake">
+            <h4>Strawberry Cupcake</h4>
+            <p>A moist pink velvet cupcake topped with smooth cream cheese frosting and colorful sprinkles for a fun touch.</p>
+            <p>Price: Rs 250</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Strawberry Cupcake')">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/cupcake7.jfif" alt="Neopolitan Cupcake">
+            <h4>Neopolitan Cupcake</h4>
+            <p>A delightful vanilla cupcake filled with fresh strawberries and topped with whipped cream frosting for a refreshing treat.</p>
+            <p>Price: Rs 260</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Neopolitan Cupcake')">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/cupcake8.jfif" alt="Chinnamon Cupcake">
+            <h4>Chinnamon Cupcake</h4>
+            <p>Cinnamon cupcakes start with a simple vanilla cupcake base infused with cinnamon flavor.</p>
+            <p>Price: Rs 240</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Chinnamon Cupcake')">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="images/cupcake9.jfif" alt="Honeybee Cupcake">
+            <h4>Honeybee Cupcake</h4>
+            <p>Honey is the star ingredient in these cupcakes, from the batter to the buttercream.</p>
+            <p>Price: Rs 270</p>
+            <p>Size: Standard</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Honeybee Cupcake')">Add to Cart</button>
+        </div>
+    </div>
+    <a href="product.html" class="back-to-all-btn">Back to All Cupcakes</a>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <p>© 2024 Sweet Delight Bakery. All rights reserved.</p>
+    </div>
+</footer>
+<a href="#top" class="scroll-to-top" id="scrollToTopBtn">↑</a>
+</body>
+<script src="home_script.js"></script>
+<script>
+    function addToCart(cakeName) {
+        alert(cakeName + " has been added to your cart!");
+    }
+</script>
+</html>

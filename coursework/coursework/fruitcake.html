@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sweet Delight Bakery</title>
+        <link rel="stylesheet" href="home_styles.css">
+        <link rel="stylesheet" href="product_styles.css">
+        <link rel="icon" href="images/birthday-cake.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="home.html" class="logo">
+                <img src="images/birthday-cake.png" alt="Bakery Icon" class="logo-icon">
+                Sweet Delight Bakery
+            </a>
+            <nav class="navbar">
+                <div class="hamburger" id="hamburger">
+                    &#9776; <!-- Hamburger icon -->
+                </div>
+                <ul id="navbar-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cake-category">
+        <h2>Fruit Cakes</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="images/apricot-fruitcake.jfif" alt="Apricot Fruit Cake">
+                <h4>Apricot Fruit Cake</h4>
+                <p>A delightful fruit cake made with real apricots and a hint of spice.</p>
+                <p>Price: Rs 550</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Apricot Fruit Cake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/vegan-fruitcake.jfif" alt="Vegan Fruit Cake">
+                <h4>Vegan Fruit Cake</h4>
+                <p>A rich and moist cake packed with assorted fruits, perfect for everyone.</p>
+                <p>Price: Rs 600</p>
+                <p>Size: 9 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Vegan Fruit Cake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/vanilla-fruitcake.jfif" alt="Vanilla Fruit Cake">
+                <h4>Vanilla Fruit Cake</h4>
+                <p>A light vanilla cake filled with seasonal fruits and whipped cream.</p>
+                <p>Price: Rs 500</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Vanilla Fruit Cake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/japanese-fruitcake.jfif" alt="Japanese Fruit Cake">
+                <h4>Japanese Fruit Cake</h4>
+                <p>A fluffy sponge cake layered with fresh fruits and cream.</p>
+                <p>Price: Rs 650</p>
+                <p>Size: 9 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Japanese Fruit Cake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/watermelon-fruitcake.jpeg" alt="Watermelon Fruit Cake">
+                <h4>Watermelon Fruit Cake</h4>
+                <p>A refreshing cake made with real watermelon and a touch of mint.</p>
+                <p>Price: Rs 700</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Watermelon Fruit Cake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/white-fruitcake.jfif" alt="White Fruit Cake">
+                <h4>White Fruit Cake</h4>
+                <p>A creamy cake with a mix of tropical fruits and vanilla frosting.</p>
+                <p>Price: Rs 650</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('White Fruit Cake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/img3.jfif" alt="Carrot Fruit Cake">
+                <h4>Carrot Fruit Cake</h4>
+                <p>A moist carrot cake enriched with nuts and dried fruits.</p>
+                <p>Price: Rs 550</p>
+                <p>Size: 8 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Carrot Fruit Cake')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/img5.jfif" alt="Lemon Tart Fruit Cake">
+                <h4>Lemon Tart Fruit Cake</h4>
+                <p>A zesty lemon cake topped with a creamy lemon tart glaze.</p>
+                <p>Price: Rs 600</p>
+                <p>Size: 7 inches</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Lemon Tart Fruit Cake')">Add to Cart</button>
+            </div>
+        </div>
+        <a href="product.html" class="back-to-all-btn">Back to All Cakes</a>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2024 Sweet Delight Bakery. All rights reserved.</p>
+        </div>
+    </footer>
+    <a href="#top" class="scroll-to-top" id="scrollToTopBtn">↑</a>
+</body>
+<script src="home_script.js"></script>
+
+<script>
+    function addToCart(cakeName) {
+        alert(cakeName + " has been added to your cart!");
+    }
+    </script>
+</html>

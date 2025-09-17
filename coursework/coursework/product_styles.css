@@ -1,0 +1,140 @@
+/* Common Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background: #282c34;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Styles for product.html */
+.product-page {
+    padding: 60px 20px; /* Padding around the section */
+    text-align: center; /* Center text and images within the section */
+}
+
+.product-page h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+    border-bottom: 4px solid #c87c6b; /* Decorative underline */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.category {
+    margin: 40px 0; /* Space between categories */
+}
+
+.category a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.category-image {
+    width: 300px; /* Fixed width for consistency */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-radius: 10px; 
+    margin-bottom: 15px; /* Space between image and heading */
+    transition: transform 0.3s; 
+    display: block; /* Ensure it's treated as a block element */
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.category-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Styles for cake category pages */
+.cake-category h2{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+    border-bottom: 4px solid #c87c6b; /* Decorative underline */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.cake-category {
+    padding: 60px 20px; /* Add padding to match the product page */
+    text-align: center; /* Center text and images within the section */
+}
+
+.cake-category .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items in the grid */
+}
+
+.product-item {
+    margin: 10px; /* Add space between items */
+}
+
+.product-item .category-image {
+    width: 300px; /* Fixed width for consistency */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    display: block; /* Treat images as block elements */
+    margin: 0 auto; /* Center the images */
+}
+
+/* Add to cart button styling */
+.add-to-cart-btn {
+    background-color: #c87c6b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+    border: none; 
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #a65a43;
+    transform: scale(1.05);
+}
+
+.back-to-all-btn {
+    background-color: #6dbe8f; 
+    color: #fff; 
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 1em; 
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+    display: inline-block; 
+    margin-top: 20px; /* Space above the button */
+}
+
+.back-to-all-btn:hover {
+    background-color: #a65a43; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
+
+
+
+
+
+
+
